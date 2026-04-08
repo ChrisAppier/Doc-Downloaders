@@ -21,7 +21,6 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 from datetime import datetime, timezone, timedelta
 
-
 # ── Constants ─────────────────────────────────────────────────────────────────
 
 BASE_URL   = "https://ecmp.nebraska.gov/PublicAccess"
