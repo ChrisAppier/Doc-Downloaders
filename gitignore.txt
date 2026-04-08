@@ -1,0 +1,77 @@
+# --- Downloaded output ---
+# Exclude any folders used as download destinations
+downloads/
+output/
+out/
+
+# Exclude downloaded documents themselves (PDFs, common doc formats)
+*.pdf
+*.PDF
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.zip
+
+# --- CSV exports from state portals ---
+# These are ephemeral inputs, not source files worth tracking
+*.csv
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.whl
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# --- Windows ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- Logs ---
+*.log
+logs/
